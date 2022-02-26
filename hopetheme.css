@@ -12,7 +12,7 @@ body {
     --status-danger-background: var(--old-red);
   
     /* Revert to old font var */
-    /*--font-display: var(--font-primary);
+    --font-display: var(--font-primary);
   
     /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
     --brand-experiment-100: #f8f9fd;
