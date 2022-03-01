@@ -1,0 +1,33 @@
+/* Windows titlebar */
+.typeWindows-2-g3UY {
+	background-color: var(--dplus-bgc-ui-base);
+	border-radius: var(--dplus-radius-ui);
+	height: 20px;
+	padding-bottom: 4px;
+	margin-right: calc(var(--dplus-spacing-app) * 2);
+	position: relative;
+	left: var(--dplus-spacing-app);
+	align-items: center;
+}
+.withFrame-2dL45i {
+	margin-top: var(--dplus-spacing-app);
+}
+.wordmark-2u86JB svg {display: none;}
+.winButton-3UMjdg {
+	height: 24px;
+	top: 2px;
+}
+.winButtonClose-3Q8ZH5 {
+	border-radius: 0 10px 10px 0;
+}
+.wordmark-2u86JB {
+	display: block;
+	background: no-repeat url(https://laurenstrucker.github.io/hopethemes.github.io/hopelogo.svg);
+	background-size: 65px 16px;
+	background-position: 6px 4px !important;
+	height: 16px; width: 65px;
+	opacity: 0.6;
+
+}
+.theme-light .wordmark-2u86JB {filter: brightness(0);}
+.theme-light .theme-dark .wordmark-2u86JB {filter: none;}
